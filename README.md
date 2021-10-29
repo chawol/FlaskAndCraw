@@ -16,6 +16,6 @@ Also a server For my Other Prictice
   still need this to Prevnt not Allow from this origin issue  
 * ## requests
   We need  some information from internet , But not all data have api to get .
-  Sometimes we need to Craw a Webpage and extract some information . So we need this to get HtmlDoc use this package.
+  Sometimes we need to Craw a Webpage and extract some information . So we need this to get HtmlDoc.
 * ## Python
   A good Chioce to Craw Information we need . That's why we choose Flask for our server.
