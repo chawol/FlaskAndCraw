@@ -1,10 +1,11 @@
 from bs4 import BeautifulSoup
 import requests as rq
 import json
-
 from flask import Flask
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 url = "http://www.leonland.de/elements_by_price/en/list"
 response = rq.get(url).text
 soap = BeautifulSoup(response, 'html.parser')
